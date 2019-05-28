@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|Quicksand&display=swap");
+@import url("inputs.css");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+.transparent {
+  background-color: rgba(255, 0, 0, 0.205);
+}
+
+.lato300 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+}
