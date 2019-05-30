@@ -22,7 +22,7 @@ const Form = props => {
                     onChange={handleChange}
                     value={values.motivo || ""}
                     className="input"
-                    type="motivo"
+                    type="text"
                     name="motivo"
                     required
                   />
@@ -35,7 +35,7 @@ const Form = props => {
                     onChange={handleChange}
                     value={values.importe || ""}
                     className="input"
-                    type="importe"
+                    type="number"
                     name="importe"
                     required
                   />

@@ -7,12 +7,7 @@ const formatter = new Intl.NumberFormat("en-US", {
 });
 
 function Balance(props) {
-  const [balance, setBalance] = useState(props.balance);
-
-  useEffect(() => {
-    console.log(balance);
-  });
-
+  const balance = props.balance;
   return (
     <div>
       <h2 className="h2 text-center quicksand">Balance</h2>

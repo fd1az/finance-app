@@ -8,13 +8,14 @@ import Balance from "./Balance";
 function App() {
   const [items, setItems] = useState(Items);
 
+
   function handleNewItem(evt) {
-    let newItem = { motivo: evt.motivo, importe: evt.importe };
-    console.log(newItem);
-    items.push(newItem);
-    setItems(items);
-    console.log(Items);
+
+    setItems([...items,{motivo: evt.motivo, importe: Number(evt.importe) }]);
+    console.log(items);
+    return items;
   }
+
 
   return (
     <div className="app-div">
